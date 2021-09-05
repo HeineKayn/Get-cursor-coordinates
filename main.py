@@ -14,7 +14,6 @@ def main():
     pygame.init()
     pygame.display.set_caption("Calibrateur3000")
     ecran = pygame.display.set_mode((0,0),pygame.FULLSCREEN)
-
     bg = pygame.image.load(path)
 
     while 1 :
